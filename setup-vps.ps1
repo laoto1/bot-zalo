@@ -1,6 +1,7 @@
 # === Zalo Bot VPS Setup Script ===
 # Chay script nay trong PowerShell (Admin) tren VPS
 $ErrorActionPreference = "Stop"
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 Write-Host "=== Zalo Bot VPS Setup ===" -ForegroundColor Cyan
 
 # 1. Cai Node.js 20 LTS

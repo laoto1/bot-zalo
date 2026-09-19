@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+credentials.json
+*.log
+data/bot.db
+data/*.enc
